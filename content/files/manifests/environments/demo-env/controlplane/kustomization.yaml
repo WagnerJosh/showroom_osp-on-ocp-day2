@@ -22,7 +22,7 @@ patches:
         value: "control-plane-cluster-7kp6b-1"
       - op: replace
         path: /spec/desiredState/interfaces/3/ipv4/address/0/ip
-        value: "192.168.10.80"
+        value: "192.168.20.32"
 
   - target:
       group: nmstate.io
@@ -38,7 +38,7 @@ patches:
         value: "control-plane-cluster-7kp6b-2"
       - op: replace
         path: /spec/desiredState/interfaces/3/ipv4/address/0/ip
-        value: "192.168.10.81"
+        value: "192.168.20.33"
 
   - target:
       group: nmstate.io
@@ -54,7 +54,7 @@ patches:
         value: "control-plane-cluster-7kp6b-3"
       - op: replace
         path: /spec/desiredState/interfaces/3/ipv4/address/0/ip
-        value: "192.168.10.82"
+        value: "192.168.20.34"
 
   - target:
       kind: NetConfig
